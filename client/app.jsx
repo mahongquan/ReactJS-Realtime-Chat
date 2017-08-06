@@ -4,7 +4,7 @@ var React = require('react');
 
 var socket = io.connect();
 
-var UsersList = React.createClass({
+class UsersList extends React.Component{
 	render() {
 		return (
 			<div className='users'>
